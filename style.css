@@ -9,9 +9,16 @@ body {
 .box1 {
   background-color: brown;
   color: aliceblue;
+  border: 6px pink groove;
+  border-bottom-width: 30px;
+  padding: 11px;
+  margin-top: 20px;
 }
-.container{
-    width: 80%;
-    margin:auto
-    
+.container {
+  width: 80%;
+  margin: auto;
+}
+.box1 h1 {
+  font: bold italic 60px Gadget;
+  text-decoration: underline;
 }
