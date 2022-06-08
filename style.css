@@ -54,3 +54,27 @@ a:active {
 .myform {
   padding: 20px;
 }
+.formelement{
+    padding-bottom: 10px
+}
+.myform label{
+    display:block;
+}
+.myform input{
+    width: 10%;
+}
+.myform input[type="email"]{
+    width:100%;
+}
+.myform input[type="password"]{
+    width:100%;
+}
+button{
+    color: rgb(168, 206, 255);
+    background-color: rgb(49, 48, 48);
+    padding:10px;
+}
+button:hover{
+    background-color: rgb(133, 133, 133);
+    color:rgb(255, 165, 91)
+}
