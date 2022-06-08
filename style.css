@@ -1,15 +1,15 @@
 body {
-  background-color: aquamarine;
-  color: darksalmon;
+  background-color: rgb(219, 219, 219);
+  color: rgb(247, 135, 97);
   font: 900 12px Arial, Helvetica, sans-serif;
 
   line-height: 3em;
   margin: 0;
 }
 .box1 {
-  background-color: brown;
-  color: aliceblue;
-  border: 6px pink groove;
+  background-color: rgb(133, 228, 223);
+  color: rgb(53, 53, 53);
+  border: 6px rgb(163, 218, 235) groove;
   border-bottom-width: 30px;
   padding: 11px;
   margin-top: 20px;
@@ -21,4 +21,36 @@ body {
 .box1 h1 {
   font: bold italic 60px Gadget;
   text-decoration: underline;
+}
+.categories {
+  margin: 40px;
+  background-color: aliceblue;
+  border: 10px rosybrown solid;
+}
+.categories h2 {
+  text-align: center;
+  font: 40px Lucida;
+  text-decoration: underline;
+}
+.categories ul {
+  padding-left: 6em;
+  list-style: circle;
+}
+.categories li {
+  border-bottom: dotted 2px black;
+  border-radius: 12px;
+}
+a {
+  text-decoration: none;
+  color: rgb(53, 53, 53);
+}
+a:hover {
+  color: crimson;
+  text-decoration: underline;
+}
+a:active {
+  color: green;
+}
+.myform {
+  padding: 20px;
 }
