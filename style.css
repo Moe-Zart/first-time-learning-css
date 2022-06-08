@@ -1,0 +1,12 @@
+body {
+  background-color: aquamarine;
+  color: darksalmon;
+  font: 900 12px Arial, Helvetica, sans-serif;
+
+  line-height: 3em;
+  margin: 0;
+}
+.box1 {
+  background-color: brown;
+  color: aliceblue;
+}
